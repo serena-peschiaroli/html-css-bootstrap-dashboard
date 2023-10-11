@@ -1,0 +1,40 @@
+:root {
+
+}
+
+
+/* LAYOUT */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+
+    /* debug */
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-left {
+    width: 80px;
+    height: calc(100% - 80px);
+    align-self: stretch;
+    
+    /* debug */
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.col-right {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+
+    /* debug */
+    border: 1px solid black;
+    background-color: lightsalmon;
+}
