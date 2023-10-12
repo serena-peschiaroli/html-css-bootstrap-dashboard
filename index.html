@@ -93,8 +93,8 @@
 
             <!-- col-right-main -->
             <div class="col-right">
-                <div class="container menu">
-                    <div class="row p-2">
+                <div class="container-fluid">
+                    <div class="row p-2 ms-menu">
                        <div class="col-12 col-md-6">
                             lorem
                        </div>
@@ -106,15 +106,19 @@
                        </div>
 
                     </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row p-2">
+                
+                 <!-- <div class="container-fluid"> -->
+                    <div class="row">
                         <div class="col-12 col-lg-8">
-                            <div class="card">
-                                <table class="table table-bordered">
+                            <div class="card bg-secondary">
+                                <h4>
+                                    Prossime Classi
+                                </h4>
+                                <table class="table table-bordered bg-light w-100 align-items-center">
+                                    
                                     <thead>
                                       <tr>
-                                        <th scope="col">Nome</th>
+                                        <th scope="col" class="flex-grow-1">Nome</th>
                                         <th scope="col" class="d-none d-sm-table-cell">Data inizio</th>
                                         <th scope="col" class="d-none d-sm-table-cell">ROI</th>
                                         <th scope="col">Stato</th>
@@ -123,6 +127,18 @@
                                     </thead>
                                     <tbody>
                                       <tr>
+                                        <td class="flex-grow-1"> <img class="class-avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                                        <td class="d-none d-sm-table-cell">11/01/2021</td>
+                                        <td class="d-none d-sm-table-cell">20%</td>
+                                        <td><a class="btn btn-primary btn-sm small" href="">Done</a></td>
+                                        <td><a class="btn btn-outline-secondary btn-sm flex-nowrap" href="">
+                                            <i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
                                         <td scope="row"> <img class="class-avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
                                         <td class="d-none d-sm-table-cell">11/01/2021</td>
                                         <td class="d-none d-sm-table-cell">20%</td>
@@ -130,26 +146,87 @@
                                         <td><a class="btn btn-outline-secondary btn-sm" href="">
                                             <i class="fa fa-pencil"></i></a>
                                             <a class="btn btn-outline-secondary btn-sm" href="">
-                                                <i class="fa fa-trash"></i></a>
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row"> <img class="class-avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                                        <td class="d-none d-sm-table-cell">11/01/2021</td>
+                                        <td class="d-none d-sm-table-cell">20%</td>
+                                        <td><a class="btn btn-primary btn-sm" href="">Done</a></td>
+                                        <td><a class="btn btn-outline-secondary btn-sm" href="">
+                                            <i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td scope="row"> <img class="class-avatar" src="img/class-avatar.jpg" alt=""> Classe 75</td>
+                                        <td class="d-none d-sm-table-cell">11/01/2021</td>
+                                        <td class="d-none d-sm-table-cell">20%</td>
+                                        <td><a class="btn btn-primary btn-sm" href="">Done</a></td>
+                                        <td><a class="btn btn-outline-secondary btn-sm" href="">
+                                            <i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-outline-secondary btn-sm" href="">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
                                         </td>
                                       </tr>
                                       
                                     </tbody>
                                   </table>
                             </div>
+                        </div>
+                        <div class="d-none d-lg-block col-lg-4">
                             <div class="card">
-                                lorem
-
+                                <h5>ToDo</h5>
+                                <table class="table table-bordered bg-light w-100 ">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="check" id="checkone">
+                                            
+                                                <label for="checkone">Lorem Ipsum</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="check" id="two">
+                                            
+                                                <label for="checktwo">Lorem Ipsum</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox" name="check" id="checkthree">
+                                            
+                                                <label for="checkthree">Lorem Ipsum</label>
+                                            </td>
+                                            
+                                        </tr>
+                                      
+                                    </tbody>
+                                </table>
+                                
+                                
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4">
+
+                        <div class="col-sm-12 col-md-12 col-lg-8">
+                            <div class="card">
+                                <h5>FAQ</h5>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-4 d-none d-sm-none d-lg-block">
                             <div class="card">
                                 lorem
                             </div>
-                       
-                            <div class="card">
-                                lorem
-                            </div>
+
                         </div>
 
                     </div>
@@ -163,6 +240,6 @@
 
             
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

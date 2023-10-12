@@ -13,7 +13,7 @@
     
 }
 
-.menu {
+.ms-menu {
     background-color: blue;
 }
 
@@ -54,6 +54,7 @@ main {
     height: calc(100% - var(--ms-height-head));
     width: 100%;
     display: flex;
+    
     
 } 
 
