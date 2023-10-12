@@ -24,27 +24,28 @@
             <div class="container-fluid h-100">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-auto">
-                        <img class="d-lg-none .img-fluid logo" src="img/mobile-logo.png"  alt="">
-                        <img class="d-none d-md-none d-lg-block img-fluid w-100" src="img/logo.svg" alt="">
+                        <img class="d-lg-none logo" src="img/mobile-logo.png"  alt="">
+                        <img class="d-none d-md-none d-lg-block" src="img/logo.svg" alt="">
 
                     </div>
                     <div class="col">
-                        
-                            <div class="search-bar">
-                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                                
-                            </div>
-
+                        <div class="search-bar d-flex align-items-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </div>
                     </div>
         
                     <div class="col-auto"> 
                             <nav class="navbar navbar-expand navbar-light">
                                 <div class="collapse navbar-collapse" id="navbarNav">
-                                    <ul class="navbar-nav text-white">
-                                        <li class="nav-item">
+                                    <ul class="navbar-nav text-white list-unstyled">
+                                        <li class="nav-item d-none d-lg-inline-block">
                                             <a href="#" class="nav-link"> LINK</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item d-none d-lg-inline-block">
+                                            <a href="#" class="nav-link"> LINK</a>
+                                        </li>
+                                        <li class="nav-item d-none d-lg-inline-block">
                                             <a href="#" class="nav-link"> LINK</a>
                                         </li>
                                         <li class="nav-item">
@@ -64,9 +65,9 @@
 
       
             <!-- col-left-sidebar -->
-            <div class="col-left">
-                    <div class="row">
-                        <div class="col-12 text-center">
+            <div class="col-left h-100">
+                    <div class="row flex-column">
+                        <div class="col-auto text-center align-self-stretch align-top">
                             <ul class="list-group">
                                 <li class="list-group-item-action"> <a href="">
                                     <i class="fa-solid fa-home"></i>
@@ -78,12 +79,25 @@
                                     <i class="fa-solid fa-home"></i>
                                 </a> </li>
                             </ul>
-                        </div>
-                    </div>
-                    
-            
-                
+    
 
+                            
+                            
+                        </div>
+
+                        <div class="col-auto align-bottom mt-auto">
+                            <ul class="list-group ">
+                                <li class="list-group-item">
+                                    <a href="">
+                                        <i class="fa-solid fa-home"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                            
+                        
+                    </div>
             </div>
             <!-- col-left-sidebar -->
 
@@ -103,9 +117,7 @@
 
                     </div>
                 </div>
-                <div class="container-fluid">
-
-                </div>
+                
 
             </div>
             <!-- /col-right-main -->
