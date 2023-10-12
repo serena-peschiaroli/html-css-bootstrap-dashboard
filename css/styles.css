@@ -23,6 +23,12 @@ img {
     max-width: 100%;
 }
 
+.no-s-t-border{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
 
 /* LAYOUT */
 
