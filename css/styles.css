@@ -1,5 +1,8 @@
 :root {
 
+    --ms-height-head: 80px;
+    --ms-width-side: 80px;
+
 }
 
 img {
@@ -12,7 +15,7 @@ img {
 .wrapper {
     width: 100%;
     height: 100vh;
-    display: flex;
+    
 }
 
 /* /LAYOUT */
@@ -33,10 +36,15 @@ header {
     object-fit: cover;
 }   */
 
+main {
+    height: calc(100% - var(--ms-height-head));
+    width: 100%;
+} 
+
 
 .col-left {
     width: 80px;
-    height: calc(100% - 80px);
+    
     align-self: stretch;
     
     /* debug */
@@ -55,8 +63,7 @@ header {
 }
 
 .col-right {
-    width: calc(100% - 80px);
-    height: calc(100% - 80px);
+    width: calc(100% - var(--ms-width-side));
 
     /* debug */
     border: 1px solid black;
