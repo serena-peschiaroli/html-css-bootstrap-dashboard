@@ -23,15 +23,15 @@
         <header id="app-header">
             <div class="container-fluid h-100">
                 <div class="row align-items-center justify-content-center h-100">
-                    <div class="col-auto">
+                    <div class="col-auto card-bg">
                         <img class="d-lg-none logo" src="img/mobile-logo.png"  alt="">
                         <img class="d-none d-md-none d-lg-block" src="img/logo.svg" alt="">
 
                     </div>
                     <div class="col flex-grow-1">
-                        <div class="search-bar d-flex align-items-center">
+                        <div class="search-bar d-flex align-items-center search-bg">
                             <i class="fa-solid fa-magnifying-glass"></i>
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control search-bg border-0 text-dark" type="search" placeholder="Search" aria-label="Search">
                         </div>
                     </div>
         
@@ -40,7 +40,7 @@
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav text-white list-unstyled">
                                         <li class="nav-item d-none d-lg-inline-block">
-                                            <a href="#" class="nav-link"> LINK</a>
+                                            <a href="#" class="nav-link"> <i class=" fa-bell"></i></a>
                                         </li>
                                         <li class="nav-item d-none d-lg-inline-block">
                                             <a href="#" class="nav-link"> LINK</a>
@@ -49,7 +49,7 @@
                                             <a href="#" class="nav-link"> LINK</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#" class="nav-link"> LINK</a>
+                                            <a href="#" class="nav-link"><i class="fa-solid fa-bell "></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,14 +94,30 @@
             <!-- col-right-main -->
             <div class="col-right section-bg">
                 <div class="container-fluid h-100">
-                    <div class="row p-2 ms-menu">
-                       <div class="col-12 col-md-6">
-                            lorem
+                    <div class="row p-2 ms-menu text-white">
+                       <div class="col-12 col-md-6 order-1 order-sm-3 order-md-3 order-lg-3">
+                        <nav class=""navbar-nav>
+                            <ul class="list-unstyled d-flex align-items-center">
+                                <li class="mr-3"> Nuovo studente</li>
+                                <li> <a class="btn btn-secondary ms-btn-plus border-white" href=""> +  </a></li>
+                            </ul>
+                        </nav>
+                        
+
                        </div>
-                       <div class="col-12 col-md-3">
-                            LOREM
+                       <div class="col-12 col-md-3 order-2 order-sm-1 order-md-1 order-lg-1">
+                         <nav class="navbar-nav d-flex">
+                            <ul class="list-unstyled d-flex flex-wrap align-items-center">
+                                <li class="mr-3"> Boolean</li>
+                                <li> <a href="" class="btn btn-secondary btn-sm small-opacity border-0"> Piano Blaze</a></li>
+                            
+                                <li> <a href="" class="btn btn-secondary btn-sm small-opacity border-0 "> Piano Blaze</a></li>
+                                <li> >> </li>
+                                <li> <a href="" class="btn btn-secondary btn-sm ms-btn-plus-circle align-items-center">+</a> </li>
+                            </ul>
+                         </nav>
                        </div>
-                       <div class="col-12 col-md-3">
+                       <div class="col-12 col-md-3 order-3 order-sm-2 order-md-2 order-lg-2">
                             lorem 
                        </div>
 
