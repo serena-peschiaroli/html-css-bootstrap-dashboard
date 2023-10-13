@@ -3,6 +3,12 @@
     --ms-height-head: 80px;
     --ms-width-side: 80px;
 
+    --bg--primary: #1B72E8;
+    --class--icon:#F26551;
+    --card--primary: #F7F7F7;
+    --section-primary: #F8F9FA;
+    --left-section-bg: #051E34;
+
 }
 
 @media screen and (min-width: 992px) {
@@ -13,8 +19,16 @@
     
 }
 
+.section-bg {
+    background-color: var(--section-primary);
+}
+
+.card-bg {
+    background-color: var(--card--primary);
+}
+
 .ms-menu {
-    background-color: blue;
+    background-color: var(--bg--primary);
 }
 
 
@@ -72,20 +86,31 @@ main {
     
     /* debug */
     border: 1px solid black;
-    background-color: blue;
+    background-image:url(../img/sidebar-bg.png);
 
+}
+
+.col-left a, i {
+    color: white;
+}
+
+.left-section-bg {
+    background-color: var(--left-section-bg);
 }
 
 
 .col-right {
     width: calc(100% - var(--ms-width-side));
 
-    /* debug */
-    border: 1px solid black;
-    background-color: lightsalmon;
+    
+    
 }
 
 
 .class-avatar {
     height: 20px;
+}
+
+.col-right  i {
+    color: gray;
 }
