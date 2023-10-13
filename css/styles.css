@@ -52,13 +52,13 @@
 
 .ms-btn-plus-circle {
     background-color: var(--btn--small-bg);
-    border-radius: 50px;
+    border-radius: 15px;
     color: white;
-    width: 2rem;
-    height: 2rem;
-    vertical-align: middle;
-    
-    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    line-height: 1.42857;
+
+    font-size: 12px;
     
 
 }
@@ -161,4 +161,9 @@ main {
 
 .col-right  i {
     color: gray;
+}
+
+
+.ms_overflowy{
+    overflow-y: scroll;
 }
